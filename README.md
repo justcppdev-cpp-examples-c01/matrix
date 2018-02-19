@@ -23,11 +23,10 @@
 Для реализации программы, необходимо воспользоваться классом следующего вида:
 ```
 class matrix_t {
-private:
   int ** data;
   unsigned int rows;
   unsigned int collumns;
-public:
+  
   matrix_t add( matrix_t & other );
   matrix_t sub( matrix_t & other );
   matrix_t mul( matrix_t & other );
